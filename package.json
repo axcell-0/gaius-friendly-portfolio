@@ -1,0 +1,15 @@
+{
+  "name": "gaius-friendly-portfolio",
+  "version": "1.0.0",
+  "description": "A friendly portfolio of a friend trying to reset my ideas on how to build a webpage using HTML,CSS and make use of Tailwind.CSS",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
